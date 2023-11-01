@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------------------------------- */
+/* .cur{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    mix-blend-mode: difference;
+} */
+/* ----------------------------------------- */
+.main{
+    /* position: relative; */
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.elem{
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.elem h1{
+    color: #fff;
+    font-size: 4vw;
+}
+.elem img{
+    width: 20%;
+    height: auto;
+    display: none;
+    border-radius: 50%;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    mix-blend-mode: difference;
+}
